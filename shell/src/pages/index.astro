@@ -1,0 +1,27 @@
+---
+import NavigationBarMicrofrontend from "../components/NavigationBarMicrofrontend.astro";
+import CustomerSearchMicrofrontend from "../components/CustomerSearchMicrofrontend.astro";
+import Fallback from "../components/fallback/Fallback.astro";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{"Shell"}</title>
+	</head>
+	<body>
+		<NavigationBarMicrofrontend server:defer>
+			<div slot="fallback"><Fallback /></div>
+		</NavigationBarMicrofrontend>
+		<div class="w-96 mx-auto">
+			<CustomerSearchMicrofrontend server:defer>
+				<div slot="fallback"><Fallback /></div>
+			</CustomerSearchMicrofrontend>
+		</div>
+	</body>
+</html>
