@@ -11,7 +11,7 @@ This demo takes advantage of Server Islands to do server-side composition of mic
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/tangton/astro-microfrontends-server-islands/main/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/tangton/astro-microfrontends-server-islands/master/screenshot.png)
 
 ## Usage
 
