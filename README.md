@@ -9,6 +9,10 @@ This demo takes advantage of Server Islands to do server-side composition of mic
 - 🚀 SSG/SSR supported by Astro
 - Reference https://github.com/sasoria/astro-microfrontends-server-islands
 
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/tangton/astro-microfrontends-server-islands/main/screenshot.png)
+
 ## Usage
 
 ### Microfrontends
